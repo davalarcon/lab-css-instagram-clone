@@ -4,7 +4,83 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*a {
+  color: red;
+  text-decoration: none;
+}*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.img-blueshade{
+  z-index: -1;
+  position: relative;
+  float:left;
+  height: 280px;
+  width: 100%;
+  background-image: url("../images/bgtile.png");
+}
+.instagram{
+  position: absolute;
+  width: 950px;
+  margin: 100px;
+}
+.phones{
+  float: left;
+}
+.content{
+  float: right;
+width: 600px;
+height: 500px;
+/*border: solid black;*/
+}
+.title-content{
+  width: 550px;
+  height: 100px;
+  /*border: solid black;*/
+  padding-left: 50px;
+  margin: 0px auto;
+}
+.img-frame{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 290px;
+  margin: 0 auto;
+}
+.p1{
+  padding: 20px 0px 5px 30px;
+  font-size: 30px;
+  color: #06365f;
+  font-weight: bold;
+}
+.p2{
+  padding: 5px 10px 0px 30px;
+  /*position: absolute;*/
+}
+.img-stores{
+width: 350px;
+margin: 20px auto;
+
+}
+.apple{
+  float: left;
+}
+.google{
+  float: right;
+}
+.body{
+  height: 650px;
+}
+.footer{
+  margin-top: 0px;
+  padding-left: 350px;
+}
+
+.about-us a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 15px;
+  font-weight: bold;
 }
